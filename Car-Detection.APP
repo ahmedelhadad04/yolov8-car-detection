@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load your trained model (update the path if needed)
-model = YOLO("weights/best.pt")
+model = YOLO("weights/best-2.pt")
 
 
 def detect_cars(image):
